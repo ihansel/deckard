@@ -1,0 +1,21 @@
+# (uncomment to add a dependency)
+# dependencies:
+#  - name:
+#    version:
+#    src:
+#    script:
+#    stylesheet:
+
+dependencies:
+  - name: deckgl
+    version: 1.0.3
+    src: htmlwidgets/lib/deckgl/5.3.2
+    script:
+      - deckgl.min.js
+  - name: mapboxgl
+    version: 1.0.3
+    src: htmlwidgets/lib/mapboxgl/0.44.1
+    script:
+      - mapbox-gl.js
+    stylesheet:
+      - mapbox-gl.css

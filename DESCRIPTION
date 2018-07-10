@@ -1,0 +1,9 @@
+Package: deckard
+Title: Visualise Data with deck.gl
+Version: 0.0.0.9000
+Authors@R: person("Ian", "Hansel", email = "ian@vergelabs.ai", role = c("aut", "cre"))
+Description: Visualise geospatial and other types of data using Uber's deck.gl framework
+Depends: R (>= 3.5.0)
+License: MIT + LICENSE
+Encoding: UTF-8
+LazyData: true
